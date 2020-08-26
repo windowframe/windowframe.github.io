@@ -80,6 +80,20 @@ body {
   font-size: 80px;
 }
 
+.list-banner {
+  text-align: center;
+  background-image: url("http://studioghiblimovies.com/wp-content/uploads/2014/11/06-eVjb7H3.jpg");
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-size: cover;
+}
+
+.list-banner h1 {
+  color: rgb(242, 242, 242);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+}
+
 /*category adjustments and stylizations*/
 .main {
   margin-top: 80px;
@@ -101,4 +115,39 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 10px;
+}
+
+/*recipe list adjustments and stylizations*/
+.list-nav {
+  margin: 20px 0px;
+  justify-content: center;
+}
+
+.list-nav ul {
+  justify-content: center;
+  margin: 0px 0px;
+}
+
+.list-nav li {
+  color: rgb(242, 242, 242);
+  display: inline-flex;
+  font-family: "Dosis", sans-serif;
+  padding: 0px 5px;
+  justify-content: center;
+}
+
+.list {
+  margin: 30px 20px;
+}
+
+.list li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+.list li a {
+  color: rgb(242, 242, 242);
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
 }
